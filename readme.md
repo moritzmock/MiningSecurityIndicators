@@ -63,4 +63,5 @@ To prepare the data for the visualization run the second script.
 ```
 python traverse_tags_for_comments.py --path <project> --path_logs <folder_for_the_logs> --MAT <TRUE/FALSE>
 python eval_historical_data.py --path <project> --path_logs <folder_for_the_logs>
+python include_information_about_the_number_of_tags.py --path <project> --path_logs <folder_for_the_logs>
 ```
