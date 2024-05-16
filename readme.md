@@ -41,7 +41,7 @@ python traverse_code_for_comments.py --path <project> --path_logs <folder_for_th
 
 Traverses the complete history of a project for security or MAT patterns.
 
-To prepare the data for the visualization run the second script.
+To prepare the data for the visualization, run the second script.
 
 ```
 python traverse_history_for_comments.py --path <project> --path_logs <folder_for_the_logs> --MAT <TRUE/FALSE>
