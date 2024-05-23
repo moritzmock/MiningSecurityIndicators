@@ -2,7 +2,7 @@
 
 This repository contains the replication package for the extended abstract *Where do developers admit their security-related concerns?*. The work was conducted by Moritz Mock, Thomas Forrer, and Barbara Russo.
 
-_*A preprint will be made available upon receipt of acceptance.*_
+Link to preprint: [doi.org/10.48550/arXiv.2405.10902](https://doi.org/10.48550/arXiv.2405.10902)
 
 ## Abstract
 
@@ -58,10 +58,27 @@ python extract_tags_of_project.py --path <project> --path_logs <folder_for_the_l
 
 Traverse the complete tags of a project for security or MAT patterns.
 
-To prepare the data for the visualization run the second script.
+To prepare the data for the visualization, run the second script.
 
 ```
 python traverse_tags_for_comments.py --path <project> --path_logs <folder_for_the_logs> --MAT <TRUE/FALSE>
 python eval_historical_data.py --path <project> --path_logs <folder_for_the_logs>
 python include_information_about_the_number_of_tags.py --path <project> --path_logs <folder_for_the_logs>
+```
+
+
+## How to cite the work
+
+#### Preprint:
+
+```bibtext
+@misc{mock2024developers,
+      title={Where do developers admit their security-related concerns?}, 
+      author={Moritz Mock and Thomas Forrer and Barbara Russo},
+      year={2024},
+      eprint={2405.10902},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      doi={10.48550/arXiv.2405.10902}
+}
 ```
