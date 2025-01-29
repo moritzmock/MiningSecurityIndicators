@@ -4,6 +4,8 @@ This repository contains the replication package for the extended abstract *Wher
 
 Link to preprint: [doi.org/10.48550/arXiv.2405.10902](https://doi.org/10.48550/arXiv.2405.10902)
 
+Link to publication (open access): [https://doi.org/10.1007/978-3-031-72781-8_21](https://doi.org/10.1007/978-3-031-72781-8_21)
+
 ## Abstract
 
 Developers use different means to document the security concerns of their code. 
@@ -80,5 +82,31 @@ python include_information_about_the_number_of_tags.py --path <project> --path_l
       archivePrefix={arXiv},
       primaryClass={cs.SE},
       doi={10.48550/arXiv.2405.10902}
+}
+```
+
+#### Preprint:
+
+```bibtext
+@InProceedings{10.1007/978-3-031-72781-8_21,
+      author="Mock, Moritz
+      and Forrer, Thomas
+      and Russo, Barbara",
+      editor="Marchesi, Lodovica
+      and Goldman, Alfredo
+      and Lunesu, Maria Ilaria
+      and Przyby{\l}ek, Adam
+      and Aguiar, Ademar
+      and Morgan, Lorraine
+      and Wang, Xiaofeng
+      and Pinna, Andrea",
+      title="Where Do Developers Admit their Security-Related Concerns?",
+      booktitle="Agile Processes in Software Engineering and Extreme Programming -- Workshops",
+      year="2025",
+      publisher="Springer Nature Switzerland",
+      address="Cham",
+      pages="189--195",
+      abstract="Developers use different means to document the security concerns of their code. Because of all of these opportunities, they may forget where the information is stored, or others may not be aware of it, and leave it unmaintained for so long that it becomes obsolete, if not useless. In this work, we analyzed different sources of code documentation from four large-scale, real-world, open-source projects in an industrial setting to understand where developers report their security concerns. In particular, we manually inspected 2.559 instances taken from source code comments, commit messages, and issue trackers. Overall, we found that developers prefer to document security concerns in source code comments and issue trackers. We also found that the longer the comments stay unfixed, the more likely they remain unfixed. Thus, to create awareness among developers, we implemented a pipeline to remind them about the introduction or removal of comments pointing to a security problem.",
+      isbn="978-3-031-72781-8"
 }
 ```
