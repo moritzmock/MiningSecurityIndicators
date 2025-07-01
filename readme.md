@@ -85,7 +85,7 @@ python include_information_about_the_number_of_tags.py --path <project> --path_l
 }
 ```
 
-#### Preprint:
+#### Publication:
 
 ```bibtext
 @InProceedings{10.1007/978-3-031-72781-8_21,
